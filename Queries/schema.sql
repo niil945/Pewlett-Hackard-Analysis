@@ -31,9 +31,12 @@ CREATE TABLE salaries (
 	FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
 	PRIMARY KEY (emp_no)
 );
+-- Recreating dept_emp table to correct order of columns
+DROP TABLE dept_emp CASCADE;
+
 CREATE TABLE dept_emp (
-	dept_no VARCHAR(4) NOT NULL,
 	emp_no INT NOT NULL,
+	dept_no VARCHAR(4) NOT NULL,
 	from_date DATE NOT NULL,
 	to_date DATE,
 	FOREIGN KEY (dept_no) REFERENCES departments (dept_no),
@@ -50,4 +53,4 @@ CREATE TABLE titles (
 );
 
 -- Testing initial table creation
-select * from departments;
+select * from dept_emp;
