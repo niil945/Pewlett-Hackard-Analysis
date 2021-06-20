@@ -80,7 +80,7 @@ ORDER BY de.dept_no;
 ```
 ## Summary
 How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-  - Initial estimates show that if everyone expected to retire does so, the figure could be 21,209 people with an emphasis on people in the Production and Development departments and specifically people in Senior Engineer positions.
+  - The analysis shows that if everyone expected to retire in the first year does so, 21,209 people could retire with an emphasis on people in the Production and Development departments and specifically people in Senior Engineer positions.
 Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees? 
   - Reviewing the total expected number of first year retirees, if each potential mentor was willing to oversee approximately 15 people each that would allow for promotions into positions that are expected to retire.
 
